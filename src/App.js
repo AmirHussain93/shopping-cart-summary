@@ -50,6 +50,7 @@ class App extends Component {
   render() {
     return (
       <div className="container">
+        <h2 className="text-center">Shopping cart summary</h2>
         <div className="purchase-card">
           <SubTotal price={this.state.total.toFixed(2)} />
           <PickupSaving price={this.state.pickupSavings}/>
